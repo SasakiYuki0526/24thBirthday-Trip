@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>住宿安排 | Accommodation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .photo-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .photo-grid img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .policy-box {
+            background: #e9ecef;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 5px solid #264653;
+            margin-top: 30px;
+        }
+        .btn-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: var(--secondary-blue);
+            color: white !important;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="index.html" class="home-icon" title="返回首頁">
+            <i class="fa-solid fa-house"></i>
+        </a>
+        <span style="font-size: 0.8rem; letter-spacing: 2px; font-weight: bold; color: var(--primary-blue);">
+            ACCOMMODATION
+        </span>
+    </div>
+
+    <div class="container">
+        <header style="text-align: center; margin-bottom: 50px;" class="animate-fade">
+            <h1 style="color: var(--primary-blue); margin-bottom: 5px;">歐夫寇斯冒險旅宿</h1>
+            <span style="color: #888; letter-spacing: 3px; font-size: 0.9rem;">OFUCOS ADVENTURE HOSTEL</span>
+        </header>
+
+        <section class="detail-info animate-fade delay-1">
+            <h2>01. 住宿地點：龍洞據點 <small>Location & Room Type</small></h2>
+            <p>我選擇的是 <strong>上下舖背包客房型</strong>。這裡不只是睡覺的地方，更是潛水員們交流經驗的空間。</p>
+            
+            <div class="photo-grid">
+                <img src="img/img_room.jpg" alt="歐夫寇斯房型">
+                <img src="img/img_dinning.jpg" alt="交誼廳">
+                <img src="img/img_beath.jpg" alt="衛浴設備">
+                <img src="img/img_out.jpg" alt="戶外">
+            </div>
+
+            <ul>
+                <li><strong>合法安全：</strong> 通過政府認證（新北市民宿字 326 號），消防與公共安全皆有保障。</li>
+                <li><strong>地理優勢：</strong> 位於龍洞灣旁，下課後能立即休息，不必擔心舟車勞頓。</li>
+            </ul>
+        </section>
+
+        <section class="detail-info animate-fade delay-2" style="margin-top: 30px; border-left: 5px solid var(--accent-teal);">
+            <h2>02. 居住守則與環保 <small>Rules & Environment</small></h2>
+            <p><i class="fa-solid fa-leaf" style="color: green;"></i> <strong>提倡環保：</strong> 為了守護海洋，旅宿不提供一次性盥洗用品（如牙刷、牙膏、刮鬍刀等）。</p>
+            <div class="tip-box" style="background: #e0f2f1;">
+                <strong>我需要準備：</strong> 
+                <p>個人盥洗包、環保餐具與水壺，以及將在旅程中落實無痕山海的生活方式。</p>
+            </div>
+        </section>
+
+        <section class="policy-box animate-fade delay-3">
+            <h3><i class="fa-solid fa-file-contract"></i> 服務規範與取消政策</h3>
+            <p>關於退房規範、取消政策等詳細資訊，我已經詳細閱讀官網表單：</p>
+            <a href="https://wp.me/P7x3QT-1g5" target="_blank" class="btn-link">查看完整規範 <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <p style="font-size: 0.8rem; color: #666; margin-top: 15px;">※ 提醒：所有規範皆以官網最新公告為準。</p>
+        </section>
+
+        <footer class="footer">
+            <p>© 2026 My 24th Birthday Trip Plan | Eco-Friendly Living</p>
+        </footer>
+    </div>
+</body>
+</html>
